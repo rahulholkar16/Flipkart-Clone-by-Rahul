@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
+
+}
+:root {
+    --primary-color: #2874f0;
+}
+
+.container {
+    padding: 0 8px;
+}
+
+header {
+    width: 100%;
+    max-width: 1280px;
+    background-color: var(--primary-color);
+    height: 56px;
+}
+
+header .nav-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .nav-container .logo {
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+
+header .nav-container .logo img {
+    width: 75px;
+    cursor: pointer;
+}
+
+header .search-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+header .search-container .search {
+    width: 304px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0 0 0 / 23%);
+    display: flex;
+}
+
+header .search-container .search .search-box {
+    width: calc(100% - 32px);
+    padding: 16px;
+    outline: none;
+    border: none;
+}
+
+header .search-container .search button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+
+header .login button {
+    align-items: center;
+    width: 121.500px;
+    height: 32px;
+    margin: 0 20px;
+    color: #2874f0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+header .become-a-seller {
+    display: flex;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header .more {
+    display: flex;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .more svg {
+    margin-left: 10px;
+    display: flex;
+    rotate: -90deg;
+}
+
+header .cart {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+header .cart svg {
+    margin-right: 5px;
+    transition: 2s;
+}
+
+/* section-1 */
+
+section {
+    display: flex;
+}
+
+.section-1 {
+    width: 100%;
+    height: 112px;
+    box-shadow: 0 1px 1px 0 rgba(0 0 0 / 16%);
+    background-color: #fff;
+}
+
+.section-1 .items  {
+    display: flex;
+    height: 100%;
+    width: 984px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.section-1 .section-1-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.section-1 .section-1-container img {
+    width: 64px;
+    height: 64px;
+}
+
+.section-1 .section-1-container img:hover{
+    scale: 1.1;
+}
+
+.section-1 .section-1-container:hover {
+    color: #2874f0;
+}
+
+/* SECTION-2 */
+
+.section-2 {
+    padding: 16px;
+    margin: 0 auto;
+    width: 100%;
+    height: 280px;
+    background: center;
+    background-repeat: no-repeat;
+}
+
+.section-2 img {
+    width: 100%;
+}
+
+.section-3 {
+    height: 343px;
+    padding: 16px;
+    margin: 0 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.section-3 .main-items {
+    margin-top: 45px;
+    height: calc(100% - 15px);
+}
+
+
+.section-3 .main {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 100%;
+    align-items: center;
+    background-position: 0px bottom;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+    background-repeat: no-repeat;
+    background-position: 0px 161px;
+}
+
+.section-3 .main h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.section-3 .main button {
+    margin-top: 24px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #2874f0;
+    width: 95.66px;
+    height: 38.19px;
+}
+
+.section-3 .items-2 {
+    display: flex;
+    width: calc(100% - 230px);
+}
+
+.section-3 .items-2 div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 232px;
+    font-size: 14px;
+}
+
+.section-3 .items-2 div img {
+    height: 200px;
+    width: 200px;
+}
+
+.section-3 .items-2 div img:hover {
+    scale: 1.02;
+}
+
+.section-3 .items-2 div .main-text {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.section-3 .items-2 div .middel-text {
+    padding-top: 8px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+
+.section-3 .items-2 div .last-text {
+    padding-top: 7px;
+    opacity: 0.6;
+}
+
+.section-4 .main {
+    background-position: 0px bottom;
+    background-image: url("https://rukminim1.flixcart.com/flap/278/278/image/e84ecf024bdc49f4.jpg?q=90");
+    background-repeat: no-repeat;
+    background-position: 0px 161px;
+}
+
+
+.section-5 {
+    height: 168.781px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 10px;
+}
+
+.section-5 .items {
+    height: 100%;
+    display: flex;
+}
+
+.section-5 .items .ietm {
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.08);
+    width: 314.625px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.section-5 .items .i1 {
+    padding-left: 0;
+    margin-right: 8px;
+}
+
+.section-5 .items .i2 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.section-5 .items .i3 {
+    margin-left: 8px;
+    margin-right: 0;
+}
